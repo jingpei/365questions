@@ -5,4 +5,5 @@ submitApp.config(function($routeProvider, $locationProvider){
 		.when('/', { controller: 'MainCtrl', templateUrl: 'app/partials/main.html' })
 		.when('/page_not_found', { controller: 'ErrorCtrl', templateUrl: 'app/partials/page_not_found.html' })
 		.otherwise({ redirectTo: '/page_not_found' })
+	$locationProvider.html5Mode(true)
 })
