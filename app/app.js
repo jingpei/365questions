@@ -1,0 +1,1 @@
+var submitApp = angular.module('submitApp', ['ngRoute', 'firebase']).constant('FIREBASE_URL', 'https://365questions.firebaseio.com/')
